@@ -1,7 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --ash-color:#404956;
     --btn-color: #F16A4F;
     --emi-color:#f5efef;
+    --price-color:#D9D9D9;
 
 }
 .top-section{
@@ -14,13 +19,13 @@
     font-size: medium;
 }
 h3 span{
-    color: rgb(23, 201, 237);
+    color: rgb(0, 213, 255);
 }
 .search-input {
     background: #FFFFFF;
     border-radius: 8px;
     padding: .8rem;
-    width: 600px;
+    width: 603px;
     border: none;
     position: absolute;
     border: none;
@@ -38,10 +43,14 @@ h3 span{
 }
 .myacc-img-head{
     position: absolute;
+    left: 1045px;
+    top: 36px;
     
 }
 .myacc-img-icon{
     position: absolute;
+    left: 1040px;
+    top: 46px;
 }
 .myacc-heading{
     padding: 5px 3px  4px 5px;
@@ -61,6 +70,12 @@ h3 span{
     font-weight: 600;
     padding: 7px;
 }
+ .cartbody{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: blue;
+ }
 .cart-img{
     bottom: 40px;
 }
@@ -136,4 +151,29 @@ nav ul{
     width: 60px;
     height: 50px;
     padding: 3px;
+}
+.bordercheck{
+    border: 1px solid red;
+}
+.regular-price{
+    background: var(--price-color);
+    color: #545151;
+    border: none;
+    border-radius: 4px;
+}
+.product-code{
+    position: absolute;
+    left: 990px;
+   top: 905px;
+}
+.addtocart{
+    background: #605d5d;
+    color: #F5F5F5;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+.one{
+    width: 10px;
+    padding-top: 3px;
 }
