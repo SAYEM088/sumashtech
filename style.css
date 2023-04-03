@@ -163,7 +163,7 @@ nav ul{
 }
 .product-code{
     position: absolute;
-    left: 990px;
+    left: 950px;
    top: 905px;
 }
 .addtocart{
@@ -176,4 +176,36 @@ nav ul{
 .one{
     width: 10px;
     padding-top: 3px;
+}
+/* second page */
+.secondpage-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight:700 ;
+}
+.spacifiction{
+    padding: 8px;
+    border-bottom: 6px solid #F16A4F;
+}
+.side-pic{
+    padding-right: 100px;
+}
+/* thirdpage */
+.modelpicture{
+    height: 100vh;
+    background-image: url(modeltwo.png),linear-gradient(rgba(0,0,0.2),rgb(62, 57, 57));
+}
+.bring-light{
+    font-size: 100px;
+    padding-top: 30px;
+    line-height: 95px;
+}
+.footerpara{
+    width: 500px;
+    color: #929090;
+    padding-top: 30px;
 }
