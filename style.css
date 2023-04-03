@@ -1,6 +1,7 @@
 :root{
     --ash-color:#404956;
     --btn-color: #F16A4F;
+    --emi-color:#f5efef;
 
 }
 .top-section{
@@ -107,6 +108,7 @@ nav ul{
 }
 .click-btn {
     background: var(--btn-color);
+    border: none;
 }
 .ipohnegb{
     border:1px solid var(--ash-color);
@@ -116,4 +118,22 @@ nav ul{
 .ipohnegbright{
     background: var(--ash-color);
     color:#ffff;
+}
+.emi{
+    background: var(--emi-color);
+    border-radius: 8px;
+}
+.emi h5{
+    color: var(--btn-color);
+}
+.emi .learn-btn{
+   color: #fcfcfc;
+}
+.delivery{
+    display: flex;
+}
+.carpic{
+    width: 60px;
+    height: 50px;
+    padding: 3px;
 }
