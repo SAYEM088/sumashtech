@@ -197,6 +197,7 @@ nav ul{
 /* thirdpage */
 .modelpicture{
     height: 100vh;
+    background-repeat: no-repeat;
     background-image: url(modeltwo.png),linear-gradient(rgba(0,0,0.2),rgb(62, 57, 57));
 }
 .bring-light{
